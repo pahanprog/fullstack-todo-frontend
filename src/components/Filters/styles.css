@@ -1,0 +1,22 @@
+.filters_container {
+    padding: 10px 15px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 5px 5px -5px rgba(136, 136, 136, 0.6);
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+}
+
+.compele_checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.compele_checkbox input {
+    margin-right: 10px;
+}

@@ -1,0 +1,10 @@
+.page_select_container {
+    display: flex;
+    align-items: center;
+}
+
+.pages {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 10px;
+}

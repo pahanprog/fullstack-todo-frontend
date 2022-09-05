@@ -1,0 +1,11 @@
+.selected_task_container {
+    padding: 15px;
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selected_task_container .task {
+    flex: 1;
+}

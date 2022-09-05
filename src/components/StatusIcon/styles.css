@@ -1,0 +1,8 @@
+.todo_status_container {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    background-color: #e6e7eb;  
+}

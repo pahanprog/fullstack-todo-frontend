@@ -1,0 +1,44 @@
+.modal.open {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.1);
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+}
+
+.modal.closed {
+    display: none;
+}
+
+.create_task_container {
+    width: 400px;
+    height: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create_task_container form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.create_task_container h2 { 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.create_task_container .input_container:last-child{
+    flex: 1;
+ }
+
+.create_task_container .input_container textarea {
+flex: 1;
+    resize: none;
+}

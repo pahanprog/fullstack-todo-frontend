@@ -1,0 +1,5 @@
+.selected_task_container .task textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 200px;
+}

@@ -1,0 +1,17 @@
+.todo_list_item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #888;
+    cursor: pointer;
+}
+
+.todo_list_item.selected {
+    background-color: rgba(136, 136, 136,0.1);
+}
+
+.todo_list_item:last-child {
+    padding-bottom: 0;
+}
+
+.edit {
+    color: blueviolet;
+}

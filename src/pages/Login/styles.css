@@ -1,0 +1,23 @@
+.login_page {
+ width: 100vw;
+ height: 100vh;
+ background-color: rgba(136, 136, 136,0.1);
+ display: grid;
+ place-items: center;
+}
+
+.login_container {
+    width: 40%;
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.login_container h2 {
+    text-align: center;
+}
+
+.login_container button {
+    margin: 0 auto;
+}
