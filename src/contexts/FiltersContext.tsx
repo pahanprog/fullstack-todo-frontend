@@ -28,7 +28,6 @@ const FiltersProvider = ({ children }: Props) => {
   const [complete, setComplete] = useState(false);
 
   const changeKeywords = (keywords: string) => {
-    console.log({ keywords });
     setKeywords(keywords);
   };
 

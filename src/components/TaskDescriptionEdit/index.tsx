@@ -39,8 +39,6 @@ const TaskDescriptionEdit = ({ initialValue }: Props) => {
       newDesctiption,
     });
 
-    console.log({ result });
-
     if (result !== "Not authenticated") {
       updateTodoDescription({ id: id, description: newDesctiption });
     } else {
